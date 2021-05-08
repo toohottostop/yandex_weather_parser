@@ -19,8 +19,8 @@ Activate virtual environment `$source <name_of_virtualenv>/bin/activate`
 5. Set your data base in `database_config.py`(in project I used Postgres, but you can choose [another one](http://docs.peewee-orm.com/en/latest/peewee/database.html#initializing-a-database))  
 `pg_db = PostgresqlExtDatabase('<database_name>', user='<your role in database>')`
 ## How to use  
-**NOTE_1:** You can get the weather from the current day and 10 days in advance  
-**NOTE_2:** If you want add or get weather data in 1 day you need to pass the same date in `-date_end` as in `-date_start`
+**~NOTE_1:** You can get the weather from the current day and 10 days in advance  
+**~NOTE_2:** If you want add or get weather data in 1 day you need to pass the same date in `-date_end` as in `-date_start`
 1. First you need to parse and save to database. Use "add_to_database" subparser:   
 `python python_console.py add_to_database -city <city_name> -date_start <date in format YYYY-MM-DD> -date_end <date in format YYYY-MM-DD>`
 2. Than you can make a card with "draw_card" subparser. 
