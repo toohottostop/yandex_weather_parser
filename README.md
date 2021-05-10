@@ -21,7 +21,7 @@ Libs:
 3. Install virtual environment package `$sudo apt install python3-virtualenv`    
 Set your virtual environment package `$python3 -m virtualenv <name_of_virtualenv>`  
 Activate virtual environment `$source <name_of_virtualenv>/bin/activate`
-4. Install requirements `pip install requirements.txt`
+4. Install requirements `pip install -r requirements.txt`
 5. Set your data base in `database_config.py`(in project I used Postgres, but you can choose [another one](http://docs.peewee-orm.com/en/latest/peewee/database.html#initializing-a-database))  
 `pg_db = PostgresqlExtDatabase('<database_name>', user='<your role in database>')`
 ## How to use  
