@@ -1,5 +1,4 @@
-# Yandex Weather Parser
-Get weather forecast from yandex.ru.  
+# Yandex Weather Parser  
 **Parser can:**  
 1. Parse and save weather forecast in database for a range of dates
 2. Get weather forecast from database for a range of dates
