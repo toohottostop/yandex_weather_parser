@@ -15,12 +15,18 @@ Libs:
 - peewee ORM
 - argparse
 ## Installation
-1. Make dir and jump into it `$mkdir weather_parser && cd weather_parser`
-2. Clone repository`git clone https://github.com/toohottostop/yandex_weather_parser.git`
-3. Install virtual environment package `$sudo apt install python3-virtualenv`    
-Set your virtual environment package `$python3 -m virtualenv <name_of_virtualenv>`  
-Activate virtual environment `$source <name_of_virtualenv>/bin/activate`
-4. Install requirements `pip install -r requirements.txt`
+1. Make dir and jump into it  
+`$mkdir weather_parser && cd weather_parser`
+2. Clone repository  
+`git clone https://github.com/toohottostop/yandex_weather_parser.git`
+3. Install virtual environment package  
+`$sudo apt install python3-virtualenv`    
+Set your virtual environment package  
+`$python3 -m virtualenv <name_of_virtualenv>`  
+Activate virtual environment  
+`$source <name_of_virtualenv>/bin/activate`
+4. Install requirements  
+`pip install -r requirements.txt`
 5. Set your data base in `database_config.py`(in project I used Postgres, but you can choose [another one](http://docs.peewee-orm.com/en/latest/peewee/database.html#initializing-a-database))  
 `pg_db = PostgresqlExtDatabase('<database_name>', user='<your role in database>')`
 ## How to use  
